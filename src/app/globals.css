@@ -62,3 +62,15 @@ section {
 h2, h3 {
   page-break-after: avoid;
 }
+
+/* Next.js Dev Logo ve Göstergelerini Gizle */
+nextjs-portal, 
+#nextjs-static-indicator,
+[data-nextjs-toast],
+[data-nextjs-dialog],
+[data-nextjs-portal] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}

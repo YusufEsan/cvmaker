@@ -1,5 +1,7 @@
 # 🚀 CV Maker | Profesyonel Özgeçmiş Tasarımcısı
 
+🔗 **[Canlı Demoyu Görüntüle](https://YusufEsan.github.io/cvmaker/)**
+
 Modern, hızlı ve jilet gibi keskin PDF çıktıları üreten, gizlilik odaklı bir özgeçmiş (CV) oluşturma platformu. Next.js 15, Zustand ve Tailwind CSS'in gücüyle geliştirilmiştir.
 
 ---
