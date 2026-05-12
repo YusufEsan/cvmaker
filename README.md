@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Antigravity CV Engine 🚀
 
-## Getting Started
+Modern, modüler ve gizlilik odaklı CV oluşturma platformu. Next.js 14, Zustand ve Tailwind CSS ile geliştirilmiştir.
 
-First, run the development server:
+## ✨ Özellikler
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Canlı Önizleme:** Verilerinizi girerken CV'nizin nasıl göründüğünü anlık olarak izleyin.
+- **Sürükle-Bırak:** Deneyim ve eğitim öğelerini dilediğiniz gibi sıralayın.
+- **Premium Temalar:** 4 farklı (Standard, Sidebar, Minimalist, Timeline) profesyonel şablon arasından seçim yapın.
+- **Dinamik Özelleştirme:** Renk paleti, fontlar ve satır aralıklarını saniyeler içinde değiştirin.
+- **Profil Fotoğrafı:** Entegre kırpma aracıyla profesyonel profil fotoğrafları ekleyin.
+- **Yüksek Kaliteli PDF:** `@react-pdf/renderer` ile tarayıcı üzerinden direkt PDF indirin.
+- **Gizlilik Odaklı:** Verileriniz asla sunucuya gitmez, sadece tarayıcınızda (Local Storage) saklanır.
+- **Veri Taşınabilirliği:** Verilerinizi JSON olarak yedekleyin veya içe aktarın.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠 Teknoloji Yığını
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Frontend:** Next.js 14 (App Router), React 19
+- **State Management:** Zustand (with Persistence)
+- **Styling:** Tailwind CSS 4
+- **DND:** @dnd-kit
+- **PDF:** @react-pdf/renderer
+- **Icons:** Lucide React
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Başlangıç
 
-## Learn More
+1. Bağımlılıkları yükleyin:
+   ```bash
+   npm install
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. Geliştirme sunucusunu başlatın:
+   ```bash
+   npm run dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Tarayıcınızda `http://localhost:3000` adresine gidin.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📄 Lisans
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT - Antigravity AI Systems tarafından geliştirilmiştir.
