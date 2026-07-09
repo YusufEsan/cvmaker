@@ -28,6 +28,20 @@ gücüyle geliştirilmiştir.
 - **💾 Veri Yedekleme:** CV verilerinizi JSON olarak dışa aktarın ve dilediğiniz
   zaman tekrar yükleyin.
 
+## 📸 Ekran Görüntüleri
+
+| Kişisel Bilgiler | Deneyim | Eğitim |
+| :---: | :---: | :---: |
+| ![Kişisel Bilgiler](screenshot/personal.png) | ![Deneyim](screenshot/experience.png) | ![Eğitim](screenshot/education.png) |
+
+| Yetenekler | Projeler | Görünüm |
+| :---: | :---: | :---: |
+| ![Yetenekler](screenshot/skills.png) | ![Projeler](screenshot/projects.png) | ![Görünüm](screenshot/appearance.png) |
+
+| Genel Ayarlar |
+| :---: |
+| ![Ayarlar](screenshot/settings.png) |
+
 ## 🛠 Teknoloji Yığını
 
 - **Framework:** [Next.js 15](https://nextjs.org/) (App Router & Server Actions)
